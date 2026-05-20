@@ -1,7 +1,7 @@
 import Swal from "sweetalert2";
 
 
-export function alertaExitosa(mensaje) {
+export function successAlert(mensaje) {
     Swal.mixin({
         toast: true,
         position: "top-end",
