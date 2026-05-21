@@ -2,87 +2,17 @@
   "productos": [
     {
       "name": "escritorio gamer",
-      "price": 700,
-      "stock": 4,
-      "description": "test",
-      "id": "JWvzYMkNAYs"
-    },
-    {
-      "name": "escritorio gamer",
-      "price": 800,
-      "stock": 5,
-      "description": "test",
-      "id": "5-z7EqfP35w"
+      "price": 123,
+      "stock": 3,
+      "description": "",
+      "id": "G4MCzHSbmHg"
     },
     {
       "name": "tarjeta grafica",
-      "price": 3000000,
-      "stock": 4,
-      "description": "potente tarjeta grafica",
-      "id": "3q7MDx-ErgQ"
-    },
-    {
-      "name": "mouse gamer",
-      "price": 70000,
-      "stock": 5,
-      "description": "test de descripción",
-      "id": "J8O9Q_jUgPs"
-    },
-    {
-      "name": "sdfgs",
-      "price": 1234,
-      "stock": 234,
-      "description": "wrgwe",
-      "id": "K8-mSg7v9wc"
-    },
-    {
-      "name": "asdfa",
-      "price": 254,
-      "stock": 4,
-      "description": "egfhd",
-      "id": "hbxtGDflLII"
-    },
-    {
-      "name": "parlantes",
-      "price": 80000,
-      "stock": 6,
-      "description": "",
-      "id": "TMRUtPrx9E4"
-    },
-    {
-      "name": "otro producto",
-      "price": 1234,
-      "stock": 45,
-      "description": "descripcion",
-      "id": "fVhE5S1qpYE"
-    },
-    {
-      "name": "pc gamer",
-      "price": 1500000,
-      "stock": 5,
-      "description": "amd ryzen 5 5600gt, 16 gb ram",
-      "id": "dyRfw50NwkY"
-    },
-    {
-      "name": "otro proudcto",
-      "price": 50000,
-      "stock": 2,
-      "description": "test",
-      "id": "tmexJCn_SFs"
-    },
-    {
-      "name": "otro mas",
-      "price": 500000,
-      "stock": 3,
-      "description": "kldfsads",
-      "id": "H3UjFOagTpk"
-    },
-    {
-      "name": "producto de prueba",
       "price": 300000,
-      "stock": 6,
-      "description": "una prueba",
-      "id": "QQxsJW6Nj7I"
+      "stock": 3,
+      "description": "",
+      "id": "uYMt5Grnt40"
     }
   ],
   "usuarios": [],

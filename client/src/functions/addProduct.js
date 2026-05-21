@@ -1,8 +1,8 @@
-import { getData } from "../services/products.service"
+import { endpoint, getData } from "../services/products.service"
 import { successAlert } from "../utils/alerts";
 
-export async function addProduct(product, url) {
-    const response = await fetch(url,
+export async function addProduct(product) {
+    const response = await fetch(endpoint,
         {
             method: "POST",
             headers: {
@@ -13,7 +13,7 @@ export async function addProduct(product, url) {
     )
 
     if (response.ok) {
-        getData(url)
+        getData()
         successAlert("Producto agregado exitosamente")
     }    
 }

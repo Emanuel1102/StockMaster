@@ -2,8 +2,7 @@ import { addProduct } from './functions/addProduct';
 import { getData } from './services/products.service';
 import './styles/globals.css';
 
-const endpoint = "http://localhost:3000/productos"
-getData(endpoint)
+getData()
 
 const form = document.getElementById("product-form")
 const productName = document.getElementById("nombre")
@@ -21,7 +20,7 @@ form.addEventListener("submit", (event) => {
         description: description.value.toLowerCase().trim()
     }
 
-    addProduct(newProduct, endpoint)
+    addProduct(newProduct)
 
     event.target.reset()
 })
