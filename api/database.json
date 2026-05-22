@@ -1,18 +1,18 @@
 {
   "productos": [
     {
-      "name": "escritorio gamer",
-      "price": 123,
-      "stock": 3,
-      "description": "",
-      "id": "G4MCzHSbmHg"
+      "name": "pc gamer",
+      "price": 1500000,
+      "stock": 6,
+      "description": "procesador: AMD Ryzen 5 5600gt",
+      "id": "1YxVgTm21fQ"
     },
     {
-      "name": "tarjeta grafica",
-      "price": 300000,
-      "stock": 3,
-      "description": "",
-      "id": "uYMt5Grnt40"
+      "name": "mouse gamer",
+      "price": 100000,
+      "stock": 5,
+      "description": "hiper mega mouse",
+      "id": "cTL1cSrPE_c"
     }
   ],
   "usuarios": [],
