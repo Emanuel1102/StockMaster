@@ -10,9 +10,23 @@
     {
       "name": "mouse gamer",
       "price": 100000,
-      "stock": 5,
-      "description": "hiper mega mouse",
+      "stock": 1,
+      "description": "mother fucker bitch",
       "id": "cTL1cSrPE_c"
+    },
+    {
+      "name": "producto",
+      "price": 120000,
+      "stock": 3,
+      "description": "descripcion",
+      "id": "r2fXE2psFUw"
+    },
+    {
+      "name": "nuevo",
+      "price": 123,
+      "stock": 3,
+      "description": "",
+      "id": "sKADaH7nr_E"
     }
   ],
   "usuarios": [],
