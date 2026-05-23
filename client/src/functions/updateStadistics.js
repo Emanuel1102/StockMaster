@@ -1,19 +1,21 @@
+import { endpoint } from "../services/products.service"
+
 const statTotal = document.getElementById('stat-total')
 const statValue = document.getElementById('stat-value')
 const statLow = document.getElementById('stat-low')
 
-export const totalProducts = (products) => {
+const totalProducts = (products) => {
     statTotal.textContent = products.length
 }
 
-export const totalInventory = (products) => {
+const totalInventory = (products) => {
     let total = products.reduce((acc, product)=>{
         return acc + product.price
     }, 0)
     statValue.textContent = `$${total}`
 }
 
-export const statLowProducts = (products) => {
+const statLowProducts = (products) => {
     let total = products.reduce((acc, product)=>{
         if(product.stock <= 3){
             acc += 1
@@ -22,3 +24,11 @@ export const statLowProducts = (products) => {
     }, 0)
     statLow.textContent = total
 }
+
+const updateStadistics = async (statToUpdate) => {  
+    totalProducts(statToUpdate)
+    totalInventory(statToUpdate)
+    statLowProducts(statToUpdate)
+}
+
+export default updateStadistics

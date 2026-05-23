@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="es">
 
 <head>
@@ -124,10 +124,10 @@
                 
                 <!-- Pagination Footer -->
                 <div class="px-8 py-6 border-t border-slate-50 flex items-center justify-between bg-slate-50/20">
-                  <span class="text-[10px] font-black text-slate-400 uppercase tracking-widest">Mostrando 1 a 3 de 12 productos</span>
+                  <span id="show-quantity" class="text-[10px] font-black text-slate-400 uppercase tracking-widest"></span>
                   <div class="flex gap-4">
-                    <button class="px-4 py-2 border border-slate-100 rounded-xl text-[10px] font-black text-slate-300 uppercase tracking-widest cursor-not-allowed">Anterior</button>
-                    <button class="px-4 py-2 border border-slate-200 bg-white rounded-xl text-[10px] font-black text-indigo-600 uppercase tracking-widest hover:bg-slate-50 transition-all shadow-sm">Siguiente</button>
+                    <button id="btn-prev" class="px-4 py-2 border border-slate-200 rounded-xl text-[10px] font-black uppercase tracking-widest text-indigo-500 hover:bg-slate-300 transition-all">Anterior</button>
+                    <button id="btn-next" class="px-4 py-2 border border-slate-200 rounded-xl text-[10px] font-black uppercase tracking-widest text-indigo-500 hover:bg-slate-300 transition-all shadow-sm">Siguiente</button>
                   </div>
                 </div>
               </div>
@@ -138,7 +138,7 @@
     </main>
   </div>
 
-  <script type="module" src="/src/main.js"></script>
+  <script type="module" src="./src/main.js"></script>
 </body>
 
 </html>

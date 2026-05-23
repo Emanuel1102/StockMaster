@@ -1,32 +1,67 @@
 {
   "productos": [
     {
+      "name": "cargador",
+      "price": 70000,
+      "stock": 3,
+      "description": "potente cargador de 120W",
+      "id": "rBufEXOiVLc"
+    },
+    {
       "name": "pc gamer",
       "price": 1500000,
-      "stock": 6,
-      "description": "procesador: AMD Ryzen 5 5600gt",
-      "id": "1YxVgTm21fQ"
+      "stock": 5,
+      "description": "",
+      "id": "F_7PvvZYcaw"
     },
     {
       "name": "mouse gamer",
-      "price": 100000,
-      "stock": 1,
-      "description": "mother fucker bitch",
-      "id": "cTL1cSrPE_c"
-    },
-    {
-      "name": "producto",
-      "price": 120000,
-      "stock": 3,
-      "description": "descripcion",
-      "id": "r2fXE2psFUw"
-    },
-    {
-      "name": "nuevo",
-      "price": 123,
-      "stock": 3,
+      "price": 70000,
+      "stock": 5,
       "description": "",
-      "id": "sKADaH7nr_E"
+      "id": "x3okI4SwfgE"
+    },
+    {
+      "name": "ups",
+      "price": 200000,
+      "stock": 10,
+      "description": "regula el voltaje y es una bateria",
+      "id": "VxPDv9vtyqI"
+    },
+    {
+      "name": "parlantes gamers",
+      "price": 480000,
+      "stock": 2,
+      "description": "",
+      "id": "kCTpFr_zP8U"
+    },
+    {
+      "name": "escritorio gamer",
+      "price": 700000,
+      "stock": 4,
+      "description": "",
+      "id": "34H5Wg3NIzA"
+    },
+    {
+      "name": "teclado mecanico",
+      "price": 140000,
+      "stock": 6,
+      "description": "swichts azules",
+      "id": "QBKNF4qkvps"
+    },
+    {
+      "name": "regulador",
+      "price": 70000,
+      "stock": 3,
+      "description": "regulador de voltaje",
+      "id": "9tEUCljwWtw"
+    },
+    {
+      "name": "teclado de membrana",
+      "price": 30000,
+      "stock": 12,
+      "description": "teclado de membrana economico",
+      "id": "8kTPdaL3Z14"
     }
   ],
   "usuarios": [],
